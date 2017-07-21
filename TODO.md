@@ -13,7 +13,7 @@
 - [x] Exception handling
 - [x] Testing with request specs
 - [x] Faker to seed data
-- [ ] README
+- [x] README
 
 
 ### Further Exploration
