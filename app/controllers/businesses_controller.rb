@@ -27,10 +27,6 @@ class BusinessesController < ApplicationController
 
 private
 
-  def json_response(object, status = 200)
-    render json: object, status: status
-  end
-
   def business_params
     params.permit(:name, :description, :address, :phone, :category)
   end
