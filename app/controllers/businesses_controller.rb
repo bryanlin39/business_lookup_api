@@ -5,6 +5,11 @@ class BusinessesController < ApplicationController
     json_response(@businesses)
   end
 
+  def show
+    @business = Business.find(params[:id])
+    json_response(@business)
+  end
+
   def search
     name = params[:name]
     @search_results = Business.search_by_name(name)
@@ -17,8 +22,8 @@ class BusinessesController < ApplicationController
     end
   end
 
-  def show
-    @business = Business.find(params[:id])
+  def random
+    @business = Business.random
     json_response(@business)
   end
 

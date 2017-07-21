@@ -5,4 +5,8 @@ class Business < ApplicationRecord
     Business.where('lower(name) = ?', name.downcase)
   end
 
+  def self.random
+    Business.order('RANDOM()').first
+  end
+
 end
