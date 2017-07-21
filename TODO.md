@@ -7,12 +7,12 @@
   - [x] POST
   - [x] PUT
   - [x] DELETE
-- [ ] RANDOM endpoint to return random business
+- [x] RANDOM endpoint to return random business
 - [x] Custom endpoint (ex: SEARCH)
 - [ ] Serialization
 - [x] Exception handling
-- [ ] Testing with request specs
-- [ ] Faker to seed data
+- [x] Testing with request specs
+- [x] Faker to seed data
 - [ ] README
 
 
