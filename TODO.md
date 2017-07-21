@@ -3,7 +3,7 @@
 ### Core Functionality
 - [ ] Scopes to process parameters
 - [ ] Endpoints:
-  - [ ] GET
+  - [x] GET
   - [ ] POST
   - [ ] PUT
   - [ ] DELETE
