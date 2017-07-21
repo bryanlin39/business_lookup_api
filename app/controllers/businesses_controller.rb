@@ -5,6 +5,18 @@ class BusinessesController < ApplicationController
     json_response(@businesses)
   end
 
+  def search
+    name = params[:name]
+    @search_results = Business.search_by_name(name)
+    if @search_results == []
+      render status: 404, json: {
+        message: 'No matching names for that search.'
+      }
+    else
+      json_response(@search_results)
+    end
+  end
+
   def show
     @business = Business.find(params[:id])
     json_response(@business)

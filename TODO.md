@@ -2,15 +2,15 @@
 
 ### Core Functionality
 - [ ] Scopes to process parameters
-- [ ] Endpoints:
+- [x] Endpoints:
   - [x] GET
-  - [ ] POST
-  - [ ] PUT
-  - [ ] DELETE
+  - [x] POST
+  - [x] PUT
+  - [x] DELETE
 - [ ] RANDOM endpoint to return random business
 - [ ] Custom endpoint (ex: SEARCH)
 - [ ] Serialization
-- [ ] Exception handling
+- [x] Exception handling
 - [ ] Testing with request specs
 - [ ] Faker to seed data
 - [ ] README
